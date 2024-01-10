@@ -10,7 +10,7 @@ namespace Alvarez_EjemploAPI.Model
     public class Rootobject
     {
         public Coord coord { get; set; }
-        public Weather[] weather { get; set; }
+        public ClimaApiJA[] weather { get; set; }
         public string _base { get; set; }
         public Main main { get; set; }
         public int visibility { get; set; }
@@ -63,7 +63,7 @@ namespace Alvarez_EjemploAPI.Model
         public int sunset { get; set; }
     }
 
-    public class Weather
+    public class ClimaApiJA
     {
         public int id { get; set; }
         public string main { get; set; }
