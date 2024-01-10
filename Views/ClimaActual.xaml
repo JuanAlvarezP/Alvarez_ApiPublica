@@ -21,11 +21,11 @@
         <Label Text="Latitud" Grid.Row="0" Grid.Column="0"/>
         <Label Text="Longitud" Grid.Row="0" Grid.Column="1"/>
 
-        <Entry Grid.Row="1" Grid.Column="0"/>
-        <Entry Grid.Row="1" Grid.Column="1"/>
+        <Entry x:Name="lat" Grid.Row="1" Grid.Column="0"/>
+        <Entry x:Name="lon" Grid.Row="1" Grid.Column="1"/>
 
         <Button Text="Consultar" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Clicked="Button_Clicked"/>
         <Label Text="Estado del clima: " Grid.Row="4" Grid.Column="0"/>
-        <Label Text="Valor" Grid.Row="4" Grid.Column="1"/>
+        <Label x:Name="weatherLabel" Grid.Row="4" Grid.Column="1"/>
     </Grid>
 </ContentPage>
